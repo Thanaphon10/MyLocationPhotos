@@ -3,11 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MyLocationPhotos/app/src/main/res/layout/activity_camera.xml" value="0.25416666666666665" />
-        <entry key="..\:/MyLocationPhotos/app/src/main/res/layout/activity_gallery.xml" value="0.25416666666666665" />
-        <entry key="..\:/MyLocationPhotos/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/MyLocationPhotos/app/src/main/res/layout/activity_maps.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Lenovo/Desktop/My_Location_Photos__21.1.22_/App/app/src/main/res/layout/activity_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/Desktop/My_Location_Photos__21.1.22_/App/app/src/main/res/layout/activity_location_get_local.xml" value="0.1403985507246377" />
       </map>
     </option>
   </component>
