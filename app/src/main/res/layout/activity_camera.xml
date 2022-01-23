@@ -21,7 +21,7 @@
         android:backgroundTint="#E3DDDD"
         android:fontFeatureSettings="@string/name_camera"
         android:freezesText="false"
-        android:text="@string/name_camera"
+        android:text="Add photo"
         android:textColor="#000000" />
 
     <ImageView
