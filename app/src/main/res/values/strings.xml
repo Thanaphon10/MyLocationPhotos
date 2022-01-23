@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Location Photos</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="name_camera">Camera</string>
+    <string name="name_savephoto">Save</string>
+
+    <string name="Select_image">Select Image</string>
+
+    <string name="Hi_yah">Hello yah</string>
+
+</resources>
