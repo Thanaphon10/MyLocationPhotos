@@ -65,6 +65,7 @@ public class Camera extends AppCompatActivity {
         ActivityCompat.requestPermissions(Camera.this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
         ActivityCompat.requestPermissions(Camera.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
 
+        String a = "tesdsf";
 
         TextView1 = findViewById(R.id.Text_view1);
         TextView2 = findViewById(R.id.Text_view2);
