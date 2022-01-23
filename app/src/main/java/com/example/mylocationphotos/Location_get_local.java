@@ -34,10 +34,10 @@ public class Location_get_local extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_location_get_local);
+        setContentView(R.layout.activity_camera);
 
 
-        BT_Get_location = findViewById(R.id.BT_get_location);
+        BT_Get_location = findViewById(R.id.cam);
         TextView1 = findViewById(R.id.Text_view1);
         TextView2 = findViewById(R.id.Text_view2);
         TextView3 = findViewById(R.id.Text_view3);
@@ -58,13 +58,6 @@ public class Location_get_local extends AppCompatActivity {
 
 
         });
-
-        if(ActivityCompat.checkSelfPermission(Location_get_local.this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED){
-            getLocation();
-        } else {
-            ActivityCompat.requestPermissions(Location_get_local.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 44);
-        }
-
 
     }
     @SuppressLint("MissingPermission")
