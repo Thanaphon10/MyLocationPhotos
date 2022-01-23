@@ -9,8 +9,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
 
     <Button
         android:id="@+id/cam"
@@ -21,7 +23,7 @@
         android:backgroundTint="#E3DDDD"
         android:fontFeatureSettings="@string/name_camera"
         android:freezesText="false"
-        android:text="Add photo"
+        android:text="@string/name_camera"
         android:textColor="#000000" />
 
     <ImageView
